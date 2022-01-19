@@ -30,15 +30,15 @@ insert into street (name) values ('Miller Street');
 insert into street (name) values ('Mathaba Crescent');
 insert into street (name) values ('Vilakazi Road');
 
-insert into electricity_meter (street_number, street_id, balance) values (1, 1, 50);
-insert into electricity_meter (street_number, street_id, balance) values (6, 1, 50);
-insert into electricity_meter (street_number, street_id, balance) values (8, 1, 50);
-insert into electricity_meter (street_number, street_id, balance) values (12, 2, 50);
-insert into electricity_meter (street_number, street_id, balance) values (7, 2, 50);
-insert into electricity_meter (street_number, street_id, balance) values (5, 2, 50);
-insert into electricity_meter (street_number, street_id, balance) values (11, 3, 50);
-insert into electricity_meter (street_number, street_id, balance) values (6, 3, 50);
-insert into electricity_meter (street_number, street_id, balance) values (13, 3, 50);
+insert into electricity_meter (street_number, street_id, balance,meter_number) values (1, 1, 50,15935780);
+insert into electricity_meter (street_number, street_id, balance,meter_number) values (6, 1, 50,24687921);
+insert into electricity_meter (street_number, street_id, balance,meter_number) values (8, 1, 50,79461328);
+insert into electricity_meter (street_number, street_id, balance,meter_number) values (12, 2, 50,28463197);
+insert into electricity_meter (street_number, street_id, balance,meter_number) values (7, 2, 50,17283946);
+insert into electricity_meter (street_number, street_id, balance,meter_number) values (5, 2, 50,39712684);
+insert into electricity_meter (street_number, street_id, balance,meter_number) values (11, 3, 50,75395128);
+insert into electricity_meter (street_number, street_id, balance,meter_number) values (6, 3, 50,15395746);
+insert into electricity_meter (street_number, street_id, balance,meter_number) values (13, 3, 50,84621793);
 
 insert into appliance (name, rate) values ('Stove', 4.5);
 insert into appliance (name, rate) values ('TV', 1.8);
