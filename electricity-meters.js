@@ -21,8 +21,7 @@ module.exports = function (pool) {
 	}
 	// updates the balance of the selected meter number with the given value.
 	async function topupElectricity(meterId, units) {
-		console.log(meterId,units);
-		
+
 		await pool.query(`UPDATE electricity_meter SET balance = (balance + ${units}) WHERE meter_number = ${meter_Id}`)
 		let new_balance = await pool.query(`select meter_number, balance from electricity_meter where meter_number = ${meter_Id}`)
 		return new_balance.rows

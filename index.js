@@ -65,12 +65,6 @@ app.get('/meter/use/:meter_id', async function(req, res) {
 
 app.post('/meter/use/:meter_id', async function(req, res) {
 
-	// update the meter balance with the usage of the appliance selected.
-	console.log(req.body)
-	// update the meter balance with the usage of the appliance selected.
-	// [Object: null prototype] { appliance: '3', meterId: '1' }
-	var appliance = req.body.appliance;
-	var meterId = req.body.meterId
 
 	console.log(appliance)
 	res.render(`/meter/user/${req.params.meter_id}`);
